@@ -1,0 +1,110 @@
+/* .App{
+    border: 1px solid blue;
+}
+table{
+    border: 1px solid black;
+
+}
+td{
+    border:1px rgb(10, 7, 7);
+    background-color: rgb(194, 195, 203);
+    
+}
+
+th{
+    border: 1px solid black;
+    background-color: rgb(228, 138, 202);
+    
+}
+
+h2{
+    text-align: center;
+    color:purple;
+    
+} */
+
+.App{
+    border: 1px solid black;
+    align-items: center;
+
+}
+h2{
+    text-align: center;
+    color: rgb(18, 11, 11);
+
+}
+/* .Grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+
+}
+
+.card{
+    border: 1px solid black;
+} */
+
+.Table{
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-template-columns: 10, 40, 40;
+
+}
+.head{
+    border: 1px solid black;
+    grid-template-columns: 20% 40% 40%;
+    text-align: center;
+}
+.head .a1{
+    border: 1px solid black;
+}
+
+.head .a2{
+    border: 1px solid black;
+}
+
+.head .a3{
+    border: 1px solid black;
+}
+
+.sbody {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 10% 40% 40%;
+}
+
+.sbody .rbody.a1{
+    border: 1px solid red;
+    justify-content: center;
+    
+}
+
+.sbody .rbody.a2{
+    border: 1px solid blue;
+}
+
+.sbody .rbody.a3{
+    border: 1px solid blue;
+}
+
+/* .App{
+    border: 1px solid blue;
+}
+
+h2{
+    color: black;
+    font-size: 32px;
+    text-align: center;
+}
+.grid{
+    max-width: 120rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.6rem;
+}
+.card{
+    padding: 2em;
+    border: 1px solid mintcream;
+} */
