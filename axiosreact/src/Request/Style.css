@@ -33,7 +33,7 @@ h2{
     color: rgb(18, 11, 11);
 
 }
-/* .Grid{
+.Grid{
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 10px;
@@ -42,7 +42,7 @@ h2{
 
 .card{
     border: 1px solid black;
-} */
+}
 
 .Table{
     border: 1px solid red;
