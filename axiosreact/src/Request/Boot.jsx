@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import axios from 'axios';
+import axios from 'axios';
 import './Style.css';
 
 function DataTable() {
@@ -11,7 +11,7 @@ function DataTable() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('https://jsonplaceholder.typicode.com/posts');
+      const response = await axios.get('https://fakestoreapi.com/products');
       setData(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -26,17 +26,24 @@ function DataTable() {
         <thead>
           <tr>
             <th>ID</th>
-            <th>Title</th>
-            <th>Body</th>
+            <th>TITLE</th>
+            <th>PRICE</th>
+            <th>DESCRIPION</th>
+            <th>IMAGE</th>
+            <th>CATEGORY</th>
+
             {/* Add more headers as needed */}
           </tr>
         </thead>
         <tbody>
-          {data.map(item => (
-            <tr key={item.id}>
-              <td>{item.id}</td>
-              <td>{item.title}</td>
-              <td>{item.body}</td>
+          {data.map(data=> (
+            <tr key={data.index}>
+              <td>{data.id}</td>
+              <td>{data.title}</td>
+              <td>{data.price}</td>
+              <td>{data.description}</td>
+              <td>{data.image}</td>
+              <td>{data.category}</td>
               
               {/* Add more columns as needed */}
             </tr>

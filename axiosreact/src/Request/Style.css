@@ -1,5 +1,15 @@
-/* .App{
+.App{
     border: 1px solid blue;
+}
+.Grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: 10px;
+
+}
+
+.card{
+    border: 1px solid black;
 }
 table{
     border: 1px solid black;
@@ -21,9 +31,9 @@ h2{
     text-align: center;
     color:purple;
     
-} */
+}
 
-.App{
+/* .App{
     border: 1px solid black;
     align-items: center;
 
@@ -87,7 +97,7 @@ h2{
 
 .sbody .rbody.a3{
     border: 1px solid blue;
-}
+} */
 
 /* .App{
     border: 1px solid blue;
